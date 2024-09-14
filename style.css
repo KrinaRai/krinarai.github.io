@@ -1,99 +1,176 @@
 body{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5vw;
+  background-color: #B8D4D7;
+  background-image: linear-gradient(#0231cd6a, #A19DCA);
+  height:auto;
 }
+
+body > header{
+  
+  font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  height: auto;
+  color:#dedde4;
+  font-size: 20px ;
+  justify-content: space-around;
+}
+.navbutton{
+  color: #d3d1a2;
+}
+#logo, #logo-parah{
+  text-align: left;
+  color:#d3d1a2; 
+  margin-left: 10%;
+  margin-top: 20%;
+
+ 
+}
+
+
+header>p{
+  margin-left: 20%;
+  text-align: left;
+  color: #e7d6b8;
+}
+.search-bar {
+  border: none;
+  background-color: transparent;
+  color: #fcfcfc; 
+  border-bottom: 1px solid #f5f5f5; 
+  padding: 5px 0; 
+}
+
+
+
+
+
+body>header>nav>ul>li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+body > header > nav > ul {
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+
 
 h1{
   margin:0px;
 }
-body > header{
-    background-color: orange;
-    color: white;
-    display: flex;
-    height: 10vh;
-    align-items: center;
-    justify-content: space-around;
-}
 
-
-#logo{
-  font-family: "Fredoka One", sans-serif;
-  padding : 8px;
-  width: 16%;
-  text-shadow: 
-  1px 1px 0px black,
-  -1px 1px 0px black,
-  1px -1px 0px black,
-  -1px -1px 0px black;
-
-
-}
-
-body > header > nav > ul{
-  list-style: none;
-}
-
-#nav-ul{
+#navHeader{
   display: flex;
+  align-items: left;
+  list-style: none;
+ 
 }
 
-#nav-ul > li{
-  padding: 8px;
-  margin: 16px;
+
+
+.dropdown-menu > li {
+  font-size: 15px;
+  margin-bottom: 5px; 
+  
 }
 
-body > main article{
-  width: 70%;
-  margin: auto;
-}
 
-.navbutton{
-  color: white;
-  text-decoration: none;
-  padding: 16px;
-  border: 1px solid white;
+ul li ul.dropdown-menu {
+  position: absolute;
+  width: 200px;
+  background-color: #E6BABE;
+  display: none;
+  z-index:999;
+  list-style: none;
   border-radius: 10%;
+  
+ 
+  
 }
 
-#main-content{
+ul li a:hover {
+  background-color: transparent;
+  border-bottom: 2px solid #090707; 
+  
+}
+
+ul li:hover ul.dropdown-menu{
+  display: block;
+}
+
+
+.tooo1{
+ height: 150px;
+ margin-left: 30px;
+}
+
+.image{
   display: flex;
-}
-
-#main-content > div{
-  width:70%;
-  justify-content: space-around;
-}
-
-form{
-  text-align: center;
-}
-
-h2{
-  text-align: center;
-}
-
-body > footer{
-    background-color: orange;
-    display: flex;
+  height: 300px;
 
 }
 
-img{
-  border-radius: 100%;
+
+.tooo2{
+ height: 150px;
+ align-self: flex-end;
+ margin-left: -280px;
 }
 
-#footer-ul{
+.image2 {
   display: flex;
-  list-style: none;
+  height: 300px;
+  margin-top: -300px;
+}
+
+.tooo3{
+
+  height:200px;
+  align-self: flex-start;
 
 }
 
-#footer-ul>div>li{
-  margin-left: 16px;
+.tooo4{
+  height: 200px;
+  align-self: flex-start;
 }
 
 
-#footer-ul>div>li>a{
-  text-decoration: none;
-  color: white;
+#logo-parah
+{
+  margin-top: 10px;
+  margin-bottom: 300px;
+  margin-left: 20%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(62, 62, 197);
+  padding: 50px;
+  
+}
+
+
+.Japan{
+  margin-top: 150px;
+}
+
+h3{
+  font-style: bold;
+  color: #dcd9ad;
+}
+
+h4{
+  font-style: italic;
+  color:#dedde4;
+}
+
+#dis {
+  border-style: solid;
+  border-color: #b2b2c6;
+  margin-top: 20px;
+  padding-right: 100px;
 }
